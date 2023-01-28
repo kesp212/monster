@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Oleo+Script&display=swap');
+
+body {
+    background-image: url("./bichos feos/sci-fi-post-apocalyptic-wallpaper-preview.jpg");
+    background-size: 1600px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Oleo Script', cursive;
+    color:#FDC8B7;
+    background-color: #540E33;
+    
+}
+
+#seleccionar-mascota {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo {
+    -webkit-text-fill-color: #FDC8B7(1, 1, 1);
+    -webkit-text-stroke: 1px #813844;
+    font-family: 'Aboreto', cursive;
+    -webkit-text-fill-color: #040404;
+    font-size: 60px;
+  
+}
+
+.subtitulo {
+    -webkit-text-fill-color: #FDC8B7(1, 1, 1);
+    -webkit-text-stroke: 1px #080808;
+    color: #55252b;
+    font-size: 46px;
+
+}
+
+.tarjetas {
+    display: flex;
+    gap: 14px;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    align-content: stretch;
+    flex-wrap: nowrap;
+    flex-direction: row-reverse;
+   
+}
+
+.tarjeta-de-monster:hover {
+    cursor: pointer;
+    padding: 15px;
+    box-sizing: border-box;
+    border-radius: 23px;
+    display: flex;
+    box-shadow: #040404 0px 0px 20px 0px;
+    transition: all 0.5s ease;
+    transform: scale(1.1);
+}
+
+.tarjeta-seleccionada-class {
+    cursor: pointer;
+    padding: 15px;
+    box-sizing: border-box;
+    border-radius: 23px;
+    display: flex;
+    box-shadow: #040404 0px 0px 20px 0px;
+    transition: all 0.5s ease;
+    transform: scale(1.1);
+}
+
+/* .tarjeta-de-monster:focus {
+    box-shadow: #040404 0px 0px 10px 0px;
+}
+
+#tarjeta-seleccionada:focus {
+    box-shadow: #040404 0px 0px 10px 0px;
+} */
+
+
+
+.tarjeta-de-monster img {
+    width: 200px;
+    height: 200px;
+}
+
+#boton-mascota {
+      margin-top: 25px;
+      width: 180px;
+      height: 40px;
+      border-radius: 20px;
+      background: transparent;
+      border:solid rgb(135, 202, 169);
+      color:#FDC8B7;
+      font-family: 'Oleo Script', cursive;
+      font-size: 20px;
+      cursor: pointer;
+    }
+    
+   
+input {
+    display: none;
+}
+
+#seleccionar-ataque {
+    align-items: center;
+    flex-direction: column;
+}
+
+.boton-de-ataque-fuego {
+    cursor: pointer;
+    background-image: url("./bichos feos/bola\ de\ fuego.gif");
+    background-repeat:no-repeat;
+    border-radius: 50%;
+    margin: 50px;
+    height: 70px;
+    width: 70px;
+    background-position:center;
+}
+
+.boton-de-ataque-agua {
+    cursor: pointer;
+    background-image: url("./bichos feos/agua.gif");
+    background-repeat:no-repeat;
+    border-radius: 50%;
+    margin: 50px;
+    height: 70px;
+    width: 70px;
+    background-position:center;
+}
+
+.boton-de-ataque-tierra {
+    cursor: pointer;
+    background-image: url("./bichos feos/tierra.gif");
+    background-repeat:no-repeat;
+    border-radius: 50%;
+    margin: 50px;
+    height: 70px;
+    width: 70px; 
+    background-position:center;
+}
+

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+     <head>
+        <meta charset ="utf-8">
+        <title> DEATH MONSTER</title>
+        <script src="./js/death_monster.js"></script>
+        <link rel="stylesheet" href="./estilo.css">
+     </head>
+     <body>  
+        <section id="seleccionar-mascota">
+            <h1 class="titulo">DEATH MONSTER</h1>
+
+            <h2 class="subtitulo">Elige a tu criatura:</h2>
+
+            <div class="tarjetas"> 
+                <label class="tarjeta-de-monster"  for="lire">
+                    <p>Lire </p>
+
+                    <img src="./bichos feos/Lire.png" alt="Lire">
+                </label>
+                <input type="radio" id="lire" name="mascota"/>
+    
+                <label class="tarjeta-de-monster"  for="suira">
+                    <p>Suira</p>
+                    <img src="./bichos feos/Suira.png" alt="Suira">
+                
+                </label>
+                <input type="radio" id="suira" name="mascota"/>
+    
+                <label class="tarjeta-de-monster"  for="cairo">
+                    <p>Cairo</p>
+                    <img src="./bichos feos/Cairo.png" alt="Cairo">
+                </label>
+                <input type="radio" id="cairo" name="mascota"/>
+    
+                <label class="tarjeta-de-monster" for="riuli">
+                    <p>Riuli</p>
+                    <img src="./bichos feos/Riuli.png" alt="Riuli">
+                </label>
+                <input type="radio" id="riuli" name="mascota"/>
+    
+                <label class="tarjeta-de-monster" for="maiuca">
+                    <p>Maiuca</p>
+                    <img src="./bichos feos/Maiuca.png" alt="Maiuca">
+                </label>
+                <input  type="radio" id="maiuca" name="mascota"/>
+    
+                <label class="tarjeta-de-monster" for="pydos">
+                    <p>Pydos</p>
+                    <img src="./bichos feos/Pydos.png" alt="Pydos">
+                </label>
+                <input type="radio" id="pydos" name="mascota"/>
+            </div>
+
+
+            <button id="boton-mascota">Seleccionar</button>
+        </section>
+        
+        <section id="seleccionar-ataque">
+            <h1 class="titulo">DEATH MONSTER</h1>
+
+            <h2 class="subtitulo">Elige tu ataque:</h2>
+
+            <div>
+                <button id="boton-fuego" class="boton-de-ataque-fuego"></butoon>
+                <button id="boton-agua" class="boton-de-ataque-agua"></button>
+                <button id="boton-tierra" class="boton-de-ataque-tierra"></button>
+            </div> 
+        
+            <div>
+                <section id="mensajes"> 
+                </section>
+           
+                <section id="reiniciar">
+                  <button id="boton-reiniciar">Reiniciar</button>
+               </section>
+            </div>
+ 
+            <div>
+                <p>Tu mascota <span id="mascota-jugador"></span> tiene <span id="vidas-jugador">3</span> vidas</p>
+                <p>La mascota <span id ="mascota-enemigo"></span> del enemigo tiene <span id="vidas-enemigo">3</span> vidas</p> 
+            </div>
+        </section>
+    </body>
+</html>
